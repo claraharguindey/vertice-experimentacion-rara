@@ -7,20 +7,47 @@
 
 body {
   padding: 0;
-  font-family: 'Roboto', sans-serif;
   background-color: #616e83;
   }
-  
-.text {
+
+.text-wrapper {
   position:absolute;
   z-index: 10;
-  font-size: 17px;
+  margin-top: 0;
+  left: 70%;
+}
+
+.title-first {
   font-family: 'Roboto', sans-serif;
+  font-size: 70px;
+  text-align: right;
+}
+
+.animation-color-text {
+  animation: color-change 10s infinite;
+  font-family: 'Roboto', sans-serif;
+  font-size: 70px;
+  text-align: right;
+}
+
+.subtitle {
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+}
+
+.italic-subtitle{
+  font-family: 'Roboto', sans-serif;
+  font-style: italic;
+  font-size: 15px;
+}
+.text {
+  font-size: 15px;
+  font-family: 'Space Mono', monospace;
   color: black;
   text-align: justify;
   padding-right: 20px;
-  margin-top: 0;
-  left: 70%;
+  margin-bottom: 20px;
+  margin-top: 10px;
   }
 
 a {
@@ -28,6 +55,63 @@ a {
   color: black;
   color: yellow;
   }
+
+
+@keyframes color-change {
+  0% {
+        
+    color: black;
+  }
+  
+  10% {
+    
+    color: black;
+  }
+  
+  20% {
+    
+    color: black;
+  }
+  
+  30% {
+    
+    color: #d9ff00;
+  }
+  
+  40% {
+    
+    color:black;
+  }
+  
+  50% {
+    
+    color: black;
+  }
+  
+  60% {
+    
+    color: black;
+  }
+  
+  70% {
+    
+    color: black;
+  }
+  80% {
+ 
+    color: black;
+  }
+  
+  90% {
+ 
+    color: black;
+  }
+  
+  100% {
+    
+    color: black;
+  }
+}
 
 model-viewer {
   width: 100%;
