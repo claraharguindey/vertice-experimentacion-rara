@@ -17,6 +17,12 @@ body {
   left: 70%;
 }
 
+.go-back-button {
+  font-family: 'Roboto', sans-serif;
+  margin: 10px;
+  color: #d1ff7a;
+  text-decoration: none;
+}
 .title-first {
   font-family: 'Roboto', sans-serif;
   font-size: 70px;
@@ -50,12 +56,6 @@ body {
   margin-top: 10px;
   }
 
-a {
-  text-decoration: none;
-  color: black;
-  color: yellow;
-  }
-
 
 @keyframes color-change {
   0% {
@@ -75,7 +75,7 @@ a {
   
   30% {
     
-    color: #d9ff00;
+    color: #d1ff7a;
   }
   
   40% {
